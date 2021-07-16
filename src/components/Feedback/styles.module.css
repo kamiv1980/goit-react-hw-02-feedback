@@ -1,0 +1,18 @@
+.button {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: teal 1px solid;
+  box-shadow: 0 0 3px #282c34;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(242, 250, 127);
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}
